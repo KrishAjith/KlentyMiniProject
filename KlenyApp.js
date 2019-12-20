@@ -46,6 +46,7 @@ app.post('/api/fileUpload', (req, res) => {
 						console.log(records);
 						//MailOperation(function (response) {
 						//});
+MailOperation();
 				});
 		res.send(results);
 		res.end();
